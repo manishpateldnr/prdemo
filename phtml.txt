@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Manis Calculator</title>
+<meta name="viewport" content="width=device-width, initial-scale="1.0">
+<style>
+	.text{
+		margin: auto;
+
+display: block;
+	}
+</style>
+</head>
+<body>
+  
+  <form action="mkpp">
+	  <h1>Calculator</h1>
+	  <input type="text" name="t1" class="text" placeholder="Enter your 1st number">
+	  <input type="text" name="t2" class="text" placeholder="Enter your 2nd number">
+	  <input type="radio" name="op" value="+">(+)Addition
+	  <input type="radio" name="op" value="-">(-)Subtraction
+	  <input type="radio" name="op" value="*">(*)Multiplication
+	  <input type="radio" name="op" value="%">%)Percentage
+	  <input type="radio" name="op" value="/">(/)Division
+	  <input type="submit">
+	  
+  </form> 
+</body>
+</html>
